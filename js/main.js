@@ -7,4 +7,8 @@ $(function(){
         autoplay: 2000,
         //fade: true, need delete vertical
     });
+
+    $('.menu__btn').on('click', function(){
+        $('.menu__list').slideToggle();
+    })
 });
